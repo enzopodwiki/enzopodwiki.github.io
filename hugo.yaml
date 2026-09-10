@@ -1,5 +1,5 @@
 baseurl: https://enzopodwiki.github.io/
-languageCode: zh-cn
+locale: zh-CN
 defaultContentLanguage: zh-cn
 title: Enzo 的项目集
 theme: hugo-theme-stack
