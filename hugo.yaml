@@ -1,0 +1,61 @@
+baseurl: https://enzopodwiki.github.io/
+languageCode: zh-cn
+defaultContentLanguage: zh-cn
+title: Enzo 的项目集
+theme: hugo-theme-stack
+
+pagination:
+    pagerSize: 9
+
+enableEmoji: true
+
+markup:
+    goldmark:
+        renderer:
+            unsafe: true
+
+params:
+    mainSections:
+        - projects
+    dateFormat:
+        published: 2006-01-02
+    sidebar:
+        compact: false
+        subtitle: 这里展示我做过的项目
+    colorScheme:
+        toggle: true
+        default: auto
+    article:
+        readingTime: false
+        list:
+            showTags: true
+    footer:
+        since: 2026
+        customText: Powered by Hugo & PagesCMS
+    widgets:
+        homepage:
+            - type: tag-cloud
+              params:
+                  limit: 10
+
+menu:
+    main:
+        - identifier: home
+          name: 首页
+          url: /
+          weight: 1
+          params:
+              icon: home
+        - identifier: about
+          name: 关于
+          url: /about/
+          weight: 2
+          params:
+              icon: user
+    social:
+        - identifier: github
+          name: GitHub
+          url: https://github.com/enzopodwiki
+          params:
+              icon: brand-github
+              newTab: true

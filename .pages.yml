@@ -1,0 +1,120 @@
+# Pages CMS 后台配置（https://app.pagescms.org）
+# 文档：https://pagescms.org/docs/
+media:
+    input: static/images
+    output: /images
+    rename: safe
+
+content:
+    - name: projects
+      label: 项目
+      type: collection
+      path: content/projects
+      exclude: [_index.md]
+      format: yaml-frontmatter
+      filename:
+          template: "{year}-{month}-{day}-{primary}.md"
+          field: create
+      view:
+          fields: [title, date, draft]
+          primary: title
+          sort: [date]
+          default:
+              sort: date
+              order: desc
+      fields:
+          - name: title
+            label: 项目名称
+            type: string
+            required: true
+          - name: description
+            label: 一句话简介
+            type: string
+            description: 显示在首页项目卡片的标题下方
+          - name: date
+            label: 日期
+            type: date
+          - name: draft
+            label: 草稿
+            type: boolean
+            description: 开启后不在网站上显示
+          - name: image
+            label: 封面图
+            type: image
+            description: 首页卡片配图，建议 1200x630 以上
+          - name: tags
+            label: 标签
+            type: string
+            list: true
+          - name: links
+            label: 相关链接
+            type: object
+            list: true
+            collapsible:
+                collapsed: true
+                summary: "{title}"
+            fields:
+                - name: title
+                  label: 名称
+                  type: string
+                - name: website
+                  label: 网址
+                  type: string
+                - name: description
+                  label: 说明
+                  type: string
+          - name: body
+            label: 项目详情
+            type: rich-text
+
+    - name: about
+      label: 关于页
+      type: file
+      path: content/about.md
+      format: yaml-frontmatter
+      operations:
+          rename: false
+      fields:
+          - name: title
+            label: 页面标题
+            type: string
+          - name: description
+            label: 页面描述
+            type: string
+          - name: body
+            label: 正文
+            type: rich-text
+
+    # ── 以后要加博客板块：先建 content/post 目录，再取消下面注释 ──
+    # - name: posts
+    #   label: 博客文章
+    #   type: collection
+    #   path: content/post
+    #   format: yaml-frontmatter
+    #   view:
+    #       fields: [title, date, draft]
+    #       primary: title
+    #       default:
+    #           sort: date
+    #           order: desc
+    #   fields:
+    #       - name: title
+    #         label: 标题
+    #         type: string
+    #         required: true
+    #       - name: date
+    #         label: 发布日期
+    #         type: date
+    #       - name: draft
+    #         label: 草稿
+    #         type: boolean
+    #       - name: description
+    #         label: 摘要
+    #         type: string
+    #       - name: tags
+    #         label: 标签
+    #         type: string
+    #         list: true
+    #       - name: body
+    #         label: 正文
+    #         type: rich-text
