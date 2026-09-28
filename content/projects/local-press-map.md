@@ -2,6 +2,7 @@
 title: 在地刊物地图
 description: 一张会翻页的地图：收录大陆港澳、台湾、日本、新马、泰国的 200+ 种在地刊物
 date: 2026-09-28
+weight: 1
 image: /images/cover-local-press-map.png
 tags:
     - 地图
@@ -11,9 +12,6 @@ links:
     - title: 在线访问
       website: https://enzopodwiki.github.io/local-press-map/
       description: 交互地图，浏览器打开即用
-    - title: GitHub
-      website: https://github.com/enzopodwiki/local-press-map
-      description: 源代码仓库
 ---
 
 把散落在各地书店角落里的在地刊物，钉在同一张地图上。

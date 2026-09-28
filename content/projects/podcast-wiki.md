@@ -2,6 +2,7 @@
 title: 播客 wiki
 description: 中文播客行业知识库：200+ 个条目，系统收录行业报道、访谈与研究
 date: 2026-09-28
+weight: 2
 image: /images/cover-podcast-wiki.png
 tags:
     - 播客
@@ -11,9 +12,6 @@ links:
     - title: 在线访问
       website: https://enzopodwiki.github.io/podcast-wiki/
       description: Wiki 索引页
-    - title: GitHub
-      website: https://github.com/enzopodwiki/podcast-wiki
-      description: 源代码仓库
 ---
 
 给中文播客行业建一本可以查的书。
