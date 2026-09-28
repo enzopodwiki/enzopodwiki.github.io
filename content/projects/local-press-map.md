@@ -3,7 +3,7 @@ title: 在地刊物地图
 description: 一张会翻页的地图：收录大陆港澳、台湾、日本、新马、泰国的 200+ 种在地刊物
 date: 2026-09-28
 weight: 1
-image: /images/cover-local-press-map.png
+image: /images/cover-local-press-map-v2.png
 tags:
     - 地图
     - 独立刊物

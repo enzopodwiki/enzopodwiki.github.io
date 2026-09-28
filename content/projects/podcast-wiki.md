@@ -3,7 +3,7 @@ title: 播客 wiki
 description: 中文播客行业知识库：200+ 个条目，系统收录行业报道、访谈与研究
 date: 2026-09-28
 weight: 2
-image: /images/cover-podcast-wiki.png
+image: /images/cover-podcast-wiki-v2.png
 tags:
     - 播客
     - 知识库

@@ -3,7 +3,7 @@ title: 推播助栏 Newsletter
 description: 中文播客行业 newsletter：访谈最好的新闻类 / 叙事类播客创作者
 date: 2026-09-28
 weight: 3
-image: /images/cover-newsletter.png
+image: /images/cover-newsletter-v2.png
 tags:
     - 播客
     - Newsletter
