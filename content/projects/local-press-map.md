@@ -1,0 +1,29 @@
+---
+title: 在地刊物地图
+description: 一张会翻页的地图：收录大陆港澳、台湾、日本、新马、泰国的 200+ 种在地刊物
+date: 2026-09-28
+image: /images/cover-local-press-map.png
+tags:
+    - 地图
+    - 独立刊物
+    - 数据可视化
+links:
+    - title: 在线访问
+      website: https://enzopodwiki.github.io/local-press-map/
+      description: 交互地图，浏览器打开即用
+    - title: GitHub
+      website: https://github.com/enzopodwiki/local-press-map
+      description: 源代码仓库
+---
+
+把散落在各地书店角落里的在地刊物，钉在同一张地图上。
+
+## 项目简介
+
+在地刊物地图收录了中国大陆及港澳、台湾 22 县市、日本 47 都道府县、泰国以及新加坡与马来西亚的约 229 种地方志与独立刊物。点击地图上的图钉，即可打开对应地区的「书柜」，浏览刊物封面并逐页翻阅。
+
+## 功能亮点
+
+- 五大板块：神州 / 福爾摩沙 / 列島 / 暹羅 / 南洋（2026.08 版）
+- 键盘快捷键：← → 切换刊物，Esc 收起，/ 呼出搜索
+- 持续开放投稿与补充渠道，刊物名录不断扩充
