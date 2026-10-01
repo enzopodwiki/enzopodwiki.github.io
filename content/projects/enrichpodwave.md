@@ -5,9 +5,10 @@ date: 2026-09-28
 draft: false
 image: /images/cover-newsletter-v2.png
 tags:
-  - 播客
+  - 叙事播客
+  - 新闻播客
+  - 深度访谈
   - Newsletter
-  - 访谈
 links:
   - title: 订阅阅读
     website: https://enrichpodwave.substack.com
