@@ -1,6 +1,6 @@
 ---
 title: 推播助栏
-description: 中文播客行业 newsletter：访谈最好的新闻类 / 叙事类播客创作者
+description: 一个关于中文播客的媒体计划，由 newsletter、配套播单和播客 「独自游」组成
 date: 2026-09-28
 draft: false
 image: /images/cover-newsletter-v2.png
