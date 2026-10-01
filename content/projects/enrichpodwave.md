@@ -10,7 +10,7 @@ tags:
   - 深度访谈
   - Newsletter
 links:
-  - title: 订阅阅读
+  - title: 点击阅读
     website: https://enrichpodwave.substack.com
     description: Substack · 三千位订阅者
 ---
