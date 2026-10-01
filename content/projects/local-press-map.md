@@ -1,7 +1,7 @@
 ---
 title: 在地刊物地图
 description: 翻阅五幅地图，超过 200 种在地刊物，去世界各地旅行
-date: 2026-09-28
+date: 2026-10-01
 draft: false
 image: /images/cover-local-press-map-v2.png
 tags:
